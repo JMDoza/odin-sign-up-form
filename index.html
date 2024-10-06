@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
-    
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Anton Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <div>
+        <div class="side-bar">
+
+        </div>
+        <div class="sign-up-container">
+            <div class="section-1">
+                <h3>
+                    This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started
+                </h3>
+                <h3 class="t1">You <em>know</em> you want to.</h3>
+            </div>
+            <div class="section-2">
+                <h3>Let's do this!</h2>
+                <form action="post">
+                    <div class="label-input-container">
+                        <div>
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name">
+                        </div>
+
+                        <div>
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name">
+                        </div>
+                    </div>
+
+                    <div class="label-input-container">
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="text" id="email">
+                        </div>
+                        <div>
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="text" id="phone_number">
+                        </div>
+                    </div>
+
+                    <div class="label-input-container">
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="text" id="password" required>
+                        </div>
+                        <div>
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="text" id="confirm_password" required>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="section-3">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
