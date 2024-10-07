@@ -6,8 +6,51 @@ body {
     margin: 0;
 }
 
+.body-container {
+    display: flex;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 3;
+    background-image: url(imgs/halie-west-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 120px;
+    margin-top: 136px;
+}
+
+.logo-container h1 {
+    color: white;
+    font-size: 64px;
+    font-family: Anton;
+    letter-spacing: 0.08em;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 107px;
+}
+
+.credit {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .sign-up-container {
     display: flex;
+    flex: 5;
     flex-direction: column;
     height: 100vh;
 }
